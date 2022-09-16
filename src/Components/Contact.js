@@ -30,7 +30,7 @@ class Contact extends Component {
         </Fade>
 
         <div className="row">
-          <Slide left duration={1000}>
+          {/* <Slide left duration={1000}>
             <div className="eight columns">
               <form action="" method="post" id="contactForm" name="contactForm">
                 <fieldset>
@@ -101,11 +101,11 @@ class Contact extends Component {
                 <br />
               </div>
             </div>
-          </Slide>
+          </Slide> */}
 
           <Slide right duration={1000}>
             <aside className="four columns footer-widgets">
-              <div className="widget widget_contact">
+              {/* <div className="widget widget_contact">
                 <h4>Address and Phone</h4>
                 <p className="address">
                   {name}
@@ -115,13 +115,13 @@ class Contact extends Component {
                   <br />
                   <span>{phone}</span>
                 </p>
-              </div>
+              </div> */}
 
-              <div className="widget widget_tweets">
+              {/* <div className="widget widget_tweets">
                 <h4 className="widget-title">Latest Tweets</h4>
                 <ul id="twitter">
-                  <li>
-                    <span>
+                  <li> */}
+                    {/* <span>
                       This is Photoshop's version of Lorem Ipsum. Proin gravida
                       nibh vel velit auctor aliquet. Aenean sollicitudin, lorem
                       quis bibendum auctor, nisi elit consequat ipsum
@@ -138,13 +138,13 @@ class Contact extends Component {
                       aperiam, eaque ipsa quae ab illo inventore veritatis et
                       quasi
                       <a href="./">http://t.co/CGIrdxIlI3</a>
-                    </span>
-                    <b>
+                    </span> */}
+                    {/* <b>
                       <a href="./">3 Days Ago</a>
                     </b>
                   </li>
                 </ul>
-              </div>
+              </div> */}
             </aside>
           </Slide>
         </div>

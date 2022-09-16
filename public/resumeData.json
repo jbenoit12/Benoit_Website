@@ -1,22 +1,22 @@
 {
   "main": {
     "name":"Jonny Benoit",
-    "description":"I am a recent college graduate web development engineer and I use react and vue.js to develop pages. This project is a resume template that can be used as the project home page or resume page",
+    "description":"",
     "image":"profilepic.jpg",
-    "bio":"I am a recent college graduate interested in Earth processes related to climate change. My primary background is in physical oceanography, computational modeling, and remote sensing. Recently, I have found a passion for field work, glaciology, scientific communication, and thinking about science more broadly during my time on the Juneau Icefield.",
-    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
+    "bio":"I am a recent Brown University graduate interested in Earth processes related to climate change. My primary background is in physical oceanography, computational modeling, and remote sensing. Recently, I have found a passion for field work, glaciology, scientific communication, and visualizing scientific data during my time on the Juneau Icefield.",
+    "contactmessage":"If you are interested in my work or would like to reach out, please contact me at jonathanbenoit3@gmail.com. I look forward to hearing from you!",
     "email": "jonathanbenoit3@gmail.com",
     "phone": "508-241-4296",
     "github":"https://github.com/nordicgiant2/react-nice-resume",
     "project":"https://github.com/nordicgiant2/react-nice-resume",
     "address":{
-      "street":"(Your Street)",
+      "street":"",
       "city":"Providence",
       "state":"RI",
-      "zip": "(Your Zip/Postal Code)"
+      "zip": ""
     },
     "website": "http://www.timbakerdev.com",
-    "resumedownload":"http://timbakerdev.com",
+    "resumedownload":"../public/Benoit_Resume.pdf",
     "social":[
       {
         "name":"facebook",
@@ -29,35 +29,47 @@
     "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
     "education":[
       {
-        "school":"Brown University",
-        "degree":"Sc. B. Geology—Physics/Math",
-        "graduated":"May 2022",
-        "description":"My education at Brown focused on studying the physics of Earth's atmosphere and oceans . In addition to my scientific classes, I "
+        "school":"Resolving Estuary-Scale Climate Change",
+        "degree":"Senior Thesis",
+        "graduated":"Fall 2021 - Spring 2022",
+        "description":"Using an application of the Regional Ocean Modeling System (ROMS) to Narragasett Bay, I simulated the effects of present and projected climatic warming in the region. Results indicate that local impact are distinct from regional impacts and that climate change is making Narragansett Bay more density stratified, which increases the estuary's suseptibility to hypoxia."
+      },
+      {
+        "school":"Contextualizing Thermal Effluent",
+        "degree":"Undergraduate Researcher",
+        "graduated":"Spring 2019 - Spring 2022",
+        "description":"Using satellite data, I conducted a post-impact analysis assessing the effect of thermal effluent (heated water) released from the Brayton Point Power Station into Narragansett Bay. I converted infrared imagery to surface temperature measurements from over 500 Landsat scenes, creating a temperature record of Narragansett Bay for the past 40 years. While the removal of the power station initially cooled the region, climatic warming over the same period has caused the entirety of Narragansett Bay to warm to the same degree as was of concern near the power station."
+      },
+      {
+        "school":"Predicting Waterspout Favorability",
+        "degree":"Ernest F. Hollings Scholar",
+        "graduated":"Summer 2021 - Spring 2022",
+        "description":"During my time working at the National Oceanic and Atmospheric Administration (NOAA) as a Hollings Scholar, I developed a machine learning algorithm to predict waterspout favorability in the Florida Keys, a region that recieves a waterspout on average about every 5 days during the summer. Reanalysis data from ERA5 was used to train and validate the model, providing insights on what large-scale meterology contributes to local waterspout favorability and exceeding past predictibility."
+      },
+      {
+        "school":"Validating Ocean Models",
+        "degree":"Summer Undergraduate Research Fellowship (SURF)",
+        "graduated":"Summer 2019",
+        "description":"Working in Dr. Baylor Fox-Kemper's ocean modeling research group, I used "
       }
     ],
     "work":[
       {
-        "company":"Fox-Kemper Research Group",
-        "title":"Undergraduate Researcher",
-        "years":"Spring 2019 - Spring 2022",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
-      },
-      {
-        "company":"National Oceanic and Atmospheric Administration (NOAA)",
-        "title":"Ernest F. Hollings Scholar",
-        "years":"Summer 2021 — Spring 2022",
-        "description":"Developed a machine learning algorithm to predict waterspout favorability in the Florida Keys from large-scale meteorology. Presented results at AGU and AMS."
-      },
-      {
         "company":"Juneau Icefield Research Program",
         "title":"Student",
         "years":"Summer 2022",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "description":"During an 8-week field glaciology course, I learned how to live and work on glaciers. We conducted field work to assess glacier health, quantify the rates and causes of their melting, and explore the global implications of glaciers in recording and controlling past and modern climates. Living in such an extreme and isolated environment meant we had to learn ski mountaineering, how to live in an isolated community, and how best to work with our environments."
+      },
+       {
+        "company":"Undergraduate Spring Break Field Trip",
+        "title":"Trip Leader",
+        "years":"Fall 2019 — Spring 2022",
+        "description":"During my undergraduate, I planned "
       },
       {
-        "company":"Brown Department of Earth, Environmental and Planetary Sciences",
-        "title":"Undergraduate Teaching Assistant",
-        "years":"Spring 2021",
+        "company":"Sampling in Narragansett Bay",
+        "title":"Undergraduate Assistant",
+        "years":"Summer 2019",
         "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
       }
     ],
@@ -95,37 +107,37 @@
   "portfolio":{
     "projects": [
       {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
+        "title":"Thermal Effluent Impacts",
+        "category":"Published Paper",
         "image":"01.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "url":"https://www.frontiersin.org/articles/10.3389/fmars.2021.705204/full"
       },
       {
-        "title":"Fury Fighting Gear",
+        "title":"Modeling Estuary-Scale Climate Change (Senior Thesis)",
         "category":"(offline now) A fighting gear company I started",
         "image":"02.jpg",
         "url":"http://www.timbakerdev.com"
       },
       {
-        "title":"Original Thai Food",
+        "title":"Predicting Waterspout Favorability",
         "category":"Website I built for a restaurant I like in Thailand",
         "image":"03.jpg",
         "url":"http://www.timbakerdev.com/originalthaifood.github.io"
       },
       {
-        "title":"Resume Website",
+        "title":"Data Sonification",
         "category":"A React based resume website template",
         "image":"04.jpg",
         "url":"http://www.timbakerdev.com"
       },
       {
-        "title":"Smirkspace",
+        "title":"Juneau Icefield",
         "category":"(MVP Only) A React and Meteor based chat University project.",
         "image":"05.jpg",
         "url":"http://www.smirkspace.com"
       },
       {
-        "title":"Canadian Wanderlust",
+        "title":"Spring Break Field Trip",
         "category":"My Travel Blog for my post-university travels",
         "image":"06.jpg",
         "url":"https://www.canadianwanderlust.com"
@@ -133,7 +145,7 @@
       {
         "title":"Fury Fighting Gear",
         "category":"(offline now) A fighting gear company I started",
-        "image":"01.jpg",
+        "image":"02.jpg",
         "url":"http://www.timbakerdev.com"
       },
       {

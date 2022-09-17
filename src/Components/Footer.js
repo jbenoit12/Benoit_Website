@@ -22,10 +22,10 @@ class Footer extends Component {
             <div className="twelve columns">
               <ul className="social-links">{networks}</ul>
 
-              <ul className="copyright">
-                <li>&copy; Copyright 2021 Nordic Giant</li>
+              <ul >
+                <li> </li>
                 <li>
-                  Design by{" "}
+                  This website was created using a HTML website template created by {" "}
                   <a title="Styleshout" href="http://www.styleshout.com/">
                     Styleshout
                   </a>

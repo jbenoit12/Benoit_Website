@@ -4,7 +4,7 @@
     "description":"",
     "image":"profilepic.jpg",
     "bio":"I am a recent Brown University graduate interested in Earth processes related to climate change. My primary background is in physical oceanography, computational modeling, and remote sensing. Recently, I have found a passion for field work, glaciology, scientific communication, and visualizing scientific data during my time on the Juneau Icefield.",
-    "contactmessage":"If you are interested in my work or would like to reach out, please contact me at jonathanbenoit3@gmail.com. I look forward to hearing from you!",
+    "contactmessage":"If you are interested in my work and would like to reach out, please contact me at jonathanbenoit3@gmail.com. I look forward to hearing from you!",
     "email": "jonathanbenoit3@gmail.com",
     "phone": "508-241-4296",
     "github":"https://github.com/nordicgiant2/react-nice-resume",
@@ -19,38 +19,40 @@
     "resumedownload":"../public/Benoit_Resume.pdf",
     "social":[
       {
-        "name":"facebook",
-        "url":"https://github.com/nordicgiant2/react-nice-resume",
-        "className":"fa fa-facebook"
       }
     ]
   },
   "resume":{
-    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
+    "skillmessage":" ",
     "education":[
       {
         "school":"Resolving Estuary-Scale Climate Change",
         "degree":"Senior Thesis",
         "graduated":"Fall 2021 - Spring 2022",
-        "description":"Using an application of the Regional Ocean Modeling System (ROMS) to Narragasett Bay, I simulated the effects of present and projected climatic warming in the region. Results indicate that local impact are distinct from regional impacts and that climate change is making Narragansett Bay more density stratified, which increases the estuary's suseptibility to hypoxia."
+        "download":"Download Senior Thesis",
+        "path":"./Modeling_Estuary_Scale_Climate_Change__Narragansett_Bay_Under_RCP_8_5.pdf",
+        "description":"Using an application of the Regional Ocean Modeling System (ROMS) to Narragasett Bay, I simulated the effects of present and projected climatic warming in the region. Results indicate that local impact are distinct from regional impacts and that climate change is making Narragansett Bay more density stratified, which increases the estuary's suseptibility to hypoxia. This work was judged to be a Highly Commended entry to the Global Undergraduate Awards."
       },
       {
         "school":"Contextualizing Thermal Effluent",
         "degree":"Undergraduate Researcher",
         "graduated":"Spring 2019 - Spring 2022",
-        "description":"Using satellite data, I conducted a post-impact analysis assessing the effect of thermal effluent (heated water) released from the Brayton Point Power Station into Narragansett Bay. I converted infrared imagery to surface temperature measurements from over 500 Landsat scenes, creating a temperature record of Narragansett Bay for the past 40 years. While the removal of the power station initially cooled the region, climatic warming over the same period has caused the entirety of Narragansett Bay to warm to the same degree as was of concern near the power station."
+        "download":"Link to Publication",
+        "description":"Using satellite data, I conducted a post-impact analysis assessing the effect of thermal effluent (heated water) released from the Brayton Point Power Station into Narragansett Bay. I converted infrared imagery to surface temperature measurements from over 500 Landsat scenes, creating a temperature record of Narragansett Bay for the past 40 years. While the removal of the power station initially cooled the region, climatic warming over the same period has caused the entirety of Narragansett Bay to warm to the same degree as was of concern near the power station. This work culminated in a publication I lead authored in Fronteirs in Marine Science."
       },
       {
         "school":"Predicting Waterspout Favorability",
         "degree":"Ernest F. Hollings Scholar",
         "graduated":"Summer 2021 - Spring 2022",
+        "download":"Download AGU/AMS Poster",
         "description":"During my time working at the National Oceanic and Atmospheric Administration (NOAA) as a Hollings Scholar, I developed a machine learning algorithm to predict waterspout favorability in the Florida Keys, a region that recieves a waterspout on average about every 5 days during the summer. Reanalysis data from ERA5 was used to train and validate the model, providing insights on what large-scale meterology contributes to local waterspout favorability and exceeding past predictibility."
       },
       {
         "school":"Validating Ocean Models",
         "degree":"Summer Undergraduate Research Fellowship (SURF)",
         "graduated":"Summer 2019",
-        "description":"Working in Dr. Baylor Fox-Kemper's ocean modeling research group, I used "
+        "download":"Download SURF Poster",
+        "description":"Working in Dr. Baylor Fox-Kemper's ocean modeling research group, I assessed the skill of the Ocean State Ocean Model (OSOM) by comparing to buoy and satellite data. I also worked on a machine learning algorithm to help speed up data cleaning of buoy data."
       }
     ],
     "work":[
@@ -143,39 +145,39 @@
         "url":"https://www.canadianwanderlust.com"
       },
       {
-        "title":"Fury Fighting Gear",
+        "title":"Field Archeology",
         "category":"(offline now) A fighting gear company I started",
-        "image":"02.jpg",
+        "image":"07.jpg",
         "url":"http://www.timbakerdev.com"
       },
       {
-        "title":"Original Thai Food",
+        "title":"Climate Change and the Unhoused",
         "category":"Website I built for a restaurant I like in Thailand",
-        "image":"02.jpg",
+        "image":"08.jpg",
         "url":"http://www.timbakerdev.com/originalthaifood.github.io"
       },
       {
-        "title":"Original Thai Food",
+        "title":"Modeling BP Oil Spill",
         "category":"Website I built for a restaurant I like in Thailand",
-        "image":"03.jpg",
+        "image":"09.jpg",
         "url":"http://www.timbakerdev.com/originalthaifood.github.io"
       },
       {
-        "title":"Resume Website",
+        "title":"Hurricane Katrina",
         "category":"A React based resume website template",
-        "image":"04.jpg",
+        "image":"10.jpg",
         "url":"http://www.timbakerdev.com"
       },
       {
-        "title":"Smirkspace",
+        "title":"Predicting Volcanic Eruptions",
         "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"05.jpg",
+        "image":"11.jpg",
         "url":"http://www.smirkspace.com"
       },
       {
-        "title":"Canadian Wanderlust",
+        "title":"Glacier Melting and AMOC",
         "category":"My Travel Blog for my post-university travels",
-        "image":"06.jpg",
+        "image":"12.jpg",
         "url":"https://www.canadianwanderlust.com"
       }
     ]

@@ -46,6 +46,7 @@
   },
   "devDependencies": {
     "chokidar": "^3.5.1",
+    "nth-check": ">=2.0.1",
     "gh-pages": "^4.0.0"
   }
 }

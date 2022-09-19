@@ -2,7 +2,7 @@
   "name": "reactniceresume",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://jbenoit12.github.io/jbenoit12.github.io", 
+  "homepage": "https://jbenoit12.github.io/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
@@ -46,7 +46,7 @@
   },
   "devDependencies": {
     "chokidar": "^3.5.1",
-    "nth-check": ">=2.0.1",
-    "gh-pages": "^4.0.0"
+    "gh-pages": "^4.0.0",
+    "nth-check": ">=2.0.1"
   }
 }

@@ -38,7 +38,7 @@
         "degree":"Undergraduate Researcher",
         "graduated":"Spring 2019 - Spring 2022",
         "download":"Link to Publication",
-        "description":"Using satellite data, I conducted a post-impact analysis assessing the effect of thermal effluent (heated water) released from the Brayton Point Power Station into Narragansett Bay. I converted infrared imagery to surface temperature measurements from over 500 Landsat scenes, creating a temperature record of Narragansett Bay for the past 40 years. While the removal of the power station initially cooled the region, climatic warming over the same period has caused the entirety of Narragansett Bay to warm to the same degree as was of concern near the power station. This work culminated in a publication I lead authored in Fronteirs in Marine Science."
+        "description":"Using satellite data, I conducted a post-impact analysis assessing the effect of thermal effluent (heated water) released from the Brayton Point Power Station into Narragansett Bay. I converted infrared imagery to surface temperature measurements from over 500 Landsat scenes, creating a temperature record of Narragansett Bay for the past 40 years. While the removal of the power station initially cooled the region, climatic warming over the same period has caused the entirety of Narragansett Bay to warm to a similar degree as was of concern near the power station. This work culminated in a publication I lead authored in Fronteirs in Marine Science."
       },
       {
         "school":"Predicting Waterspout Favorability",
@@ -106,6 +106,7 @@
         "title":"Data Sonification",
         "category":"A React based resume website template",
         "image":"04.jpg",
+        "description":"ALKFJSLDKFJSLKdjf",
         "url":"http://www.timbakerdev.com"
       },
       

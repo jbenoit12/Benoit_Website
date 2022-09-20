@@ -26,7 +26,11 @@ body { background-image: url('./IMG_9860.jpeg');
        background-repeat: no-repeat;
        background-attachment: fixed;
        background-size: cover;
-       background-position:center 70%}
+       background-position:center 70%;
+       -webkit-background-size: cover;
+       -moz-background-size: cover;
+       -o-background-size: cover;
+       background-size: cover;}
 
 /* ------------------------------------------------------------------ */
 /* b. Header Styles

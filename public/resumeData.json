@@ -103,10 +103,10 @@
     "projects": [
       
       {
-        "title":"Data Sonification",
-        "category":"A React based resume website template",
+        "title": "Data <a href=\"http://www.example.com\">here</a> Sonification",
+        "category":" ",
         "image":"04.jpg",
-        "description":"ALKFJSLDKFJSLKdjf",
+        "description":"  ",
         "url":"http://www.timbakerdev.com"
       },
       

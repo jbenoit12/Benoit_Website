@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Fade from "react-reveal";
 import Benoit_Resume from "./Benoit_Resume.pdf";
+import Benoit_Transcript from "./Transcript_JONATHANBENOIT.pdf";
 import background from "./Back.jpg"
 
 class About extends Component {
@@ -21,7 +22,7 @@ class About extends Component {
     return (
       <section id="about">
         <Fade duration={1000}>
-          <div style={{backgroundImage: `url(${background})`,backgroundRepeat:"no-repeat",backgroundSize:"cover"}}>
+          <div style={{backgroundImage: `url(${background})`,backgroundRepeat:"no-repeat",backgroundSize:"cover",backgroundPosition:"center center"}}>
             <div className="row">
               <div className="three columns">
               <br /> <br /> <br /> <br /> <br />
@@ -55,8 +56,11 @@ class About extends Component {
                   </div>
                   <div className="columns download">
                     <p>
-                      <a href={Benoit_Resume} className="button">
+                      <a href={Benoit_Resume} className="button" >
                         <i className="fa fa-download"></i>Download Resume
+                      </a>
+                      <a href={Benoit_Transcript} className="button">
+                        <i className="fa fa-download"></i>Download Transcript
                       </a>
                     </p>
                   </div>

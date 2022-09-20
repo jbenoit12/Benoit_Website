@@ -115,36 +115,6 @@
         "category":"(offline now) A fighting gear company I started",
         "image":"07.jpg",
         "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Climate Change and the Unhoused",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"08.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title":"Modeling the BP Oil Spill",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"09.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title":"Hurricane Katrina",
-        "category":"A React based resume website template",
-        "image":"10.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Predicting Volcanic Eruptions",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"11.jpg",
-        "url":"http://www.smirkspace.com"
-      },
-      {
-        "title":"Glacier Melting and AMOC",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"12.jpg",
-        "url":"https://www.canadianwanderlust.com"
       }
     ]
   }

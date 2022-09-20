@@ -22,7 +22,11 @@
 /* a. General Styles
 /* ------------------------------------------------------------------ */
 
-body { background: #0f0f0f; }
+body { background-image: url('./IMG_9860.jpeg');
+       background-repeat: no-repeat;
+       background-attachment: fixed;
+       background-size: cover;
+       background-position-y:70%}
 
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
@@ -33,7 +37,7 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   
+
    text-align: center;
    overflow: hidden;
 }
@@ -940,13 +944,13 @@ call-to-action .button {
 footer {
    padding-top: 48px;
    margin-bottom: 48px;
-   color: #303030;
+   color: #ffffff;
    font-size: 14px;
    text-align: center;
    position: relative;
 }
 
-footer a, footer a:visited { color: #525252; }
+footer a, footer a:visited { color: #c7c7c7; }
 footer a:hover, footer a:focus { color: #fff; }
 
 /* copyright */

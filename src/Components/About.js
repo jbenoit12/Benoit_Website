@@ -21,7 +21,7 @@ class About extends Component {
     return (
       <section id="about">
         <Fade duration={1000}>
-          <div style={{backgroundImage: `url(${background})`}}>
+          <div style={{backgroundImage: `url(${background})`,backgroundRepeat:"no-repeat",backgroundSize:"cover"}}>
             <div className="row">
               <div className="three columns">
               <br /> <br /> <br /> <br /> <br />

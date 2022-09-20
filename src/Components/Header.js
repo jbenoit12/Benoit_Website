@@ -1,6 +1,7 @@
 import React, { Component } from "react";
-import ParticlesBg from "particles-bg";
+// import ParticlesBg from "particles-bg";
 import Fade from "react-reveal";
+import background from "./pexels-photo-812958.jpg";
 
 class Header extends Component {
   render() {
@@ -13,8 +14,8 @@ class Header extends Component {
 
     return (
       <header id="home">
-        <ParticlesBg type="lines" bg={true} />
-
+        {/* <ParticlesBg type="random" bg={true} /> */}
+        
         <nav id="nav-wrap">
           <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
             Show navigation
@@ -49,23 +50,19 @@ class Header extends Component {
             </li>
 
             <li>
-              <a className="smoothscroll" href="#portfolio">
-                Other Works
-              </a>
-            </li>
-
-            <li>
               <a className="smoothscroll" href="#contact">
                 Contact
               </a>
             </li>
           </ul>
         </nav>
-
+        
         <div className="row banner">
           <div className="banner-text">
             <Fade bottom>
-              <h1 className="responsive-headline">{name}</h1>
+              {/* <div style={{backgroundImage: `url(${background})`,backgroundRepeat:"no-repeat",backgroundSize:"cover"}}> */}
+                <h1 className="responsive-headline">{name}</h1>
+              {/* </div> */}
             </Fade>
             <Fade bottom duration={1200}>
               <h3>{description}</h3>
@@ -83,12 +80,13 @@ class Header extends Component {
             </Fade>
           </div>
         </div>
-
+        
         <p className="scrolldown">
           <a className="smoothscroll" href="#about">
             <i className="icon-down-circle"></i>
           </a>
         </p>
+      
       </header>
     );
   }

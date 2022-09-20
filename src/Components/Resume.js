@@ -6,6 +6,9 @@ import Waterspout_Poster from "./AGU_Waterspouts_Poster_Benoit.pdf"
 import ImgEffluent from "./IMGEffluent.jpg"
 import ImgThesis from "./OSOM_Warming.jpg"
 import ImgSpouts from "./Waterspouts.jpg"
+import ImgJIRP from "./20220616_230601.jpg"
+import ImgSBFT from "./IMG_4556.jpg"
+import ImgSURF from "./tom-henell-Zasimxh9nTc-unsplash.jpeg"
 
 class Resume extends Component {
   getRandomColor() {
@@ -63,7 +66,7 @@ class Resume extends Component {
                           {"Ernest F. Hollings Scholar"} <span>&bull;</span>
                           <em className="date">{"Summer 2021 - Spring 2022"}</em>
                         </p>
-                        <p>{"During my time working at the National Oceanic and Atmospheric Administration (NOAA) as a Hollings Scholar, I developed a machine learning algorithm to predict waterspout favorability in the Florida Keys, a region that recieves a waterspout on average about every 5 days during the summer. Reanalysis data from ERA5 was used to train and validate the model, providing insights on what large-scale meterology contributes to local waterspout favorability and exceeding past predictibility. I presented this work at the American Geophysical Union in 2021 and American Meterological Society in 2022."}</p>
+                        <p>{"During my time working at the National Oceanic and Atmospheric Administration (NOAA) as a Hollings Scholar, I developed a machine learning algorithm to predict waterspout favorability in the Florida Keys, a region that recieves a waterspout on average about every 5 days during the summer. Results highlighted what large-scale meterology contributes to local waterspout favorability and increased the acuracy of past models. I presented this work at the American Geophysical Union in 2021 and American Meterological Society in 2022."}</p>
                         <div className="download">
                         <p>
                         <a href={Waterspout_Poster} className="button"> <i className="fa fa-download"></i> {"Download AGU/AMS Poster"} </a>
@@ -71,7 +74,7 @@ class Resume extends Component {
                         </div>
                       </div>
 
-                      <div key={"Validating Ocean Models"}>
+                      {/* <div key={"Validating Ocean Models"}>
                         <h3>{"Validating Ocean Models"}</h3>
                         <p className="info">
                           {"Summer Undergraduate Research Fellowship (SURF)"} <span>&bull;</span>
@@ -85,7 +88,7 @@ class Resume extends Component {
                         <a href={""} className="button"> <i className="fa fa-download"></i> {"Download SURF Poster"} </a>
                         </p>
                         </div>
-                      </div>
+                      </div> */}
                       </>
                       )
 
@@ -112,18 +115,66 @@ class Resume extends Component {
     //   );
     // });
 
-    const work = this.props.data.work.map(function (work) {
-      return (
-        <div key={work.company}>
-          <h3>{work.company}</h3>
-          <p className="info">
-            {work.title}
-            <span>&bull;</span> <em className="date">{work.years}</em>
-          </p>
-          <p>{work.description}</p>
-        </div>
-      );
-    });
+    const work = (<><div key={"Juneau Icefield Research Program"}>
+                  <img src={ImgJIRP} />
+                  <h3>{"Juneau Icefield Research Program"}</h3>
+                  <p className="info">
+                    {"Student"} <span>&bull;</span>
+                    <em className="date">{"Summer 2022"}</em>
+                  </p>
+                  <p>{"During an 8-week field glaciology course, I learned how to live and work on glaciers. We conducted field work to assess glacier health, quantify the rates and causes of glacier melting, and explored the global implications of glaciers in recording and controlling past and modern climates. Living in such an extreme and isolated environment meant we had to learn ski mountaineering, how to live in an isolated community, and how best to work with our environments. My main research focused on recording temperature data and calculating lapse rates across the icefield."}</p>
+                  {/* <div className="download">
+                  <p>
+                  <a href={Thesis} className="button"> <i className="fa fa-download"></i> {"Download Senior Thesis"} </a>
+                  </p>
+                  </div> */}
+                </div>
+
+                <div key={"Undergraduate Spring Break Field Trip"}>
+                  <img src={ImgSBFT} />
+                  <h3>{"Undergraduate Spring Break Field Trip"}</h3>
+                  <p className="info">
+                    {"Trip Leader"} <span>&bull;</span>
+                    <em className="date">{"Fall 2019 — Spring 2022"}</em>
+                  </p>
+                  <p>{"I planned and lead an 8-day field trip to many of the national parks in Utah for undergraduates in my department. My job involved planning an educational itinerary, organizing accomodations, and leading the 30 trip members in fundraising, creating a field guide, and planning food and camping gear."}</p>
+                  {/* <div className="download">
+                  <p>
+                  <a href={Thesis} className="button"> <i className="fa fa-download"></i> {"Download Senior Thesis"} </a>
+                  </p>
+                  </div> */}
+                </div>
+
+                <div key={"Sampling in Narragansett Bay"}>
+                  <img src={ImgSURF} />
+                  <h3>{"Sampling in Narragansett Bay"}</h3>
+                  <p className="info">
+                    {"Undergraduate Assistant"} <span>&bull;</span>
+                    <em className="date">{"Summer 2019"}</em>
+                  </p>
+                  <p>{"While working as a summer intern at Brown, I also participated in field work on Narragansett Bay. Our work invovled lowering sensors at repeat-observation locations in the bay to record profiles of temperature, salinity, chlorophyll, and other variables. We were particularly interested in the levels of dissolved oxygen, due to past episodes of hypoxia in Narragansett Bay."}</p>
+                  {/* <div className="download">
+                  <p>
+                  <a href={Thesis} className="button"> <i className="fa fa-download"></i> {"Download Senior Thesis"} </a>
+                  </p>
+                  </div> */}
+                </div>
+                </>
+                )
+    
+    // this.props.data.work.map(function (work) {
+    //   return (
+    //     <div key={work.company}>
+    //       <img src={ImgJIRP} />
+    //       <h3>{work.company}</h3>
+    //       <p className="info">
+    //         {work.title}
+    //         <span>&bull;</span> <em className="date">{work.years}</em>
+    //       </p>
+    //       <p>{work.description}</p>
+    //     </div>
+    //   );
+    // });
 
     const skills = this.props.data.skills.map((skills) => {
       const backgroundColor = this.getRandomColor();

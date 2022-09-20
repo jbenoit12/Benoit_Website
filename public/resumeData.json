@@ -1,7 +1,7 @@
 {
   "main": {
     "name":"Jonny Benoit",
-    "description":"",
+    "description":"Earth Scientist",
     "image":"profilepic.jpg",
     "bio":"I am a recent Brown University graduate interested in Earth processes related to climate change. My primary background is in physical oceanography, computational modeling, and remote sensing. Recently, I have found a passion for field work, glaciology, scientific communication, and visualizing scientific data during my time on the Juneau Icefield.",
     "contactmessage":"If you are interested in my work and would like to reach out, please contact me at jonathanbenoit3@gmail.com. I look forward to hearing from you!",
@@ -46,13 +46,6 @@
         "graduated":"Summer 2021 - Spring 2022",
         "download":"Download AGU/AMS Poster",
         "description":"During my time working at the National Oceanic and Atmospheric Administration (NOAA) as a Hollings Scholar, I developed a machine learning algorithm to predict waterspout favorability in the Florida Keys, a region that recieves a waterspout on average about every 5 days during the summer. Reanalysis data from ERA5 was used to train and validate the model, providing insights on what large-scale meterology contributes to local waterspout favorability and exceeding past predictibility."
-      },
-      {
-        "school":"Validating Ocean Models",
-        "degree":"Summer Undergraduate Research Fellowship (SURF)",
-        "graduated":"Summer 2019",
-        "download":"Download SURF Poster",
-        "description":"Working in Dr. Baylor Fox-Kemper's ocean modeling research group, I assessed the skill of the Ocean State Ocean Model (OSOM) by comparing to buoy and satellite data. I also worked on a machine learning algorithm to help speed up data cleaning of buoy data."
       }
     ],
     "work":[
@@ -60,19 +53,19 @@
         "company":"Juneau Icefield Research Program",
         "title":"Student",
         "years":"Summer 2022",
-        "description":"During an 8-week field glaciology course, I learned how to live and work on glaciers. We conducted field work to assess glacier health, quantify the rates and causes of their melting, and explore the global implications of glaciers in recording and controlling past and modern climates. Living in such an extreme and isolated environment meant we had to learn ski mountaineering, how to live in an isolated community, and how best to work with our environments."
+        "description":"During an 8-week field glaciology course, I learned how to live and work on glaciers. We conducted field work to assess glacier health, quantify the rates and causes of glacier melting, and explored the global implications of glaciers in recording and controlling past and modern climates. Living in such an extreme and isolated environment meant we had to learn ski mountaineering, how to live in an isolated community, and how best to work with our environments. My main research focused on recording temperature data and calculating lapse rates across the icefield."
       },
        {
         "company":"Undergraduate Spring Break Field Trip",
         "title":"Trip Leader",
         "years":"Fall 2019 — Spring 2022",
-        "description":"During my undergraduate, I planned "
+        "description":"I planned and lead an 8-day field trip to many of the national parks in Utah for undergraduates in my department. My job involved planning an educational itinerary, organizing accomodations, and leading the 30 trip members in fundraising, creating a field guide, and planning food and camping gear. "
       },
       {
         "company":"Sampling in Narragansett Bay",
         "title":"Undergraduate Assistant",
         "years":"Summer 2019",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "description":"While working as a summer intern at Brown, I also participated in field work on Narragansett Bay. Our work invovled lowering sensors at repeat-observation locations in the bay to record profiles of temperature, salinity, chlorophyll, and other variables. We were particularly interested in the levels of dissolved oxygen, due to past episodes of hypoxia in Narragansett Bay."
       }
     ],
     "skills":[
@@ -108,42 +101,15 @@
   },
   "portfolio":{
     "projects": [
-      {
-        "title":"Thermal Effluent Impacts",
-        "category":"Published Paper",
-        "image":"01.jpg",
-        "url":"https://www.frontiersin.org/articles/10.3389/fmars.2021.705204/full"
-      },
-      {
-        "title":"Modeling Estuary-Scale Climate Change (Senior Thesis)",
-        "category":"(offline now) A fighting gear company I started",
-        "image":"02.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Predicting Waterspout Favorability",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"03.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
-      },
+      
       {
         "title":"Data Sonification",
         "category":"A React based resume website template",
         "image":"04.jpg",
         "url":"http://www.timbakerdev.com"
       },
-      {
-        "title":"Juneau Icefield",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"05.jpg",
-        "url":"http://www.smirkspace.com"
-      },
-      {
-        "title":"Spring Break Field Trip",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"06.jpg",
-        "url":"https://www.canadianwanderlust.com"
-      },
+      
+      
       {
         "title":"Field Archeology",
         "category":"(offline now) A fighting gear company I started",
@@ -157,7 +123,7 @@
         "url":"http://www.timbakerdev.com/originalthaifood.github.io"
       },
       {
-        "title":"Modeling BP Oil Spill",
+        "title":"Modeling the BP Oil Spill",
         "category":"Website I built for a restaurant I like in Thailand",
         "image":"09.jpg",
         "url":"http://www.timbakerdev.com/originalthaifood.github.io"

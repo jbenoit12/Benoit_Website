@@ -3,6 +3,8 @@ import Zmage from "react-zmage";
 import Fade from "react-reveal";
 import ArchImg from "./07.jpg";
 import DataImg from "./04.jpg";
+import GISImg from "./GIS_IMG.jpg";
+import GISPoster from "./Benoit_GISFinal.pdf";
 
 let id = 0;
 class Portfolio extends Component {
@@ -25,6 +27,17 @@ class Portfolio extends Component {
                         
                         </div>
                       </div>
+
+                      <div key={id++} className="columns portfolio-item">
+                      <div className="item-wrap">
+                          <Zmage alt={"Geographic Information System (GIS)"} src={GISImg}/>
+                          <div style={{ textAlign: "center" }}>{<a href={GISPoster}>Geographic Information System (GIS)</a>}</div>
+                        
+                        </div>
+                      </div>
+
+
+
                       </>);
     // const projects = this.props.data.projects.map(function (projects) {
     //   let projectImage = "images/portfolio/" + projects.image;

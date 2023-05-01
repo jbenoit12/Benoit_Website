@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Fade from "react-reveal";
 import Benoit_Resume from "./Benoit_Resume.pdf";
-import Benoit_Transcript from "./Transcript_JONATHANBENOIT.pdf";
+import Benoit_Transcript from "../public/PDFs/Transcript_JONATHANBENOIT.pdf";
 import background from "./Back.jpg"
 
 class About extends Component {
@@ -9,7 +9,7 @@ class About extends Component {
     if (!this.props.data) return null;
 
     const name = this.props.data.name;
-    const profilepic = "images/" + this.props.data.image;
+    const profilepic = "../public/images/profilepic.jpg";
     const bio = this.props.data.bio;
     const street = this.props.data.address.street;
     const city = this.props.data.address.city;

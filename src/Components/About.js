@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Fade from "react-reveal";
 import Benoit_Resume from "./Benoit_Resume.pdf";
-import Benoit_Transcript from "./Transcript_JONATHANBENOIT.pdf";
+import Benoit_Transcript from "../public/PDFs/Transcript_JONATHANBENOIT.pdf";
 import background from "./Back.jpg"
 
 class About extends Component {

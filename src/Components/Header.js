@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 // import ParticlesBg from "particles-bg";
 import Fade from "react-reveal";
-import background from "./pexels-photo-812958.jpg";
+import background from "../images/pexels-photo-812958.jpg";
 
 class Header extends Component {
   render() {

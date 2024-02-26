@@ -1,14 +1,14 @@
 import React, { Component } from "react";
 import Slide from "react-reveal";
-import Thesis from "./Modeling_Estuary_Scale_Climate_Change__Narragansett_Bay_Under_RCP_8_5.pdf";
-import Effluent_Paper from "./Contextualizing Thermal Effluent Impacts in Narragansett Bay Using Landsat-Derived Surface Temperature.pdf"
-import Waterspout_Poster from "./AGU_Waterspouts_Poster_Benoit.pdf"
-import ImgEffluent from "./IMGEffluent.jpg"
-import ImgThesis from "./OSOM_Warming.jpg"
-import ImgSpouts from "./Waterspouts.jpg"
-import ImgJIRP from "./20220616_230601.jpg"
-import ImgSBFT from "./IMG_4556.jpg"
-import ImgSURF from "./tom-henell-Zasimxh9nTc-unsplash.jpeg"
+import Thesis from "../PDFs/Modeling_Estuary_Scale_Climate_Change__Narragansett_Bay_Under_RCP_8_5.pdf";
+import Effluent_Paper from "../PDFs/Contextualizing Thermal Effluent Impacts in Narragansett Bay Using Landsat-Derived Surface Temperature.pdf"
+import Waterspout_Poster from "../PDFs/AGU_Waterspouts_Poster_Benoit.pdf"
+import ImgEffluent from "../images/IMGEffluent.jpg"
+import ImgThesis from "../images/OSOM_Warming.jpg"
+import ImgSpouts from "../images/Waterspouts.jpg"
+import ImgJIRP from "../images/20220616_230601.jpg"
+import ImgSBFT from "../images/IMG_4556.jpg"
+import ImgSURF from "../images/tom-henell-Zasimxh9nTc-unsplash.jpeg"
 
 class Resume extends Component {
   getRandomColor() {

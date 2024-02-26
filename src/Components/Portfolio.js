@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 import Zmage from "react-zmage";
 import Fade from "react-reveal";
-import ArchImg from "./07.jpg";
-import DataImg from "./04.jpg";
-import GISImg from "./GIS_IMG.jpg";
-import GISPoster from "./Benoit_GISFinal.pdf";
+import ArchImg from "../images/07.jpg";
+import DataImg from "../images/04.jpg";
+import GISImg from "../images/GIS_IMG.jpg";
+import GISPoster from "../PDFs/Benoit_GISFinal.pdf";
 
 let id = 0;
 class Portfolio extends Component {
